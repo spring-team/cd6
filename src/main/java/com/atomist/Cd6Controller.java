@@ -11,7 +11,7 @@ class Cd6Controller {
 
     @RequestMapping(method = GET, path = "/")
     public String root() {
-        
+        // 
         // some comment
         return "App running: Served from Meerbusch, Germany";
     }
